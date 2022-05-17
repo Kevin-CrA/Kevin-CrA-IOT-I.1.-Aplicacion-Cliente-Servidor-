@@ -3,7 +3,6 @@ from flask import Flask, request
 app = Flask('__main__')
 
 
-
 #Save a device
 @app.route('/devices',methods=['POST'])
 def save_device():
